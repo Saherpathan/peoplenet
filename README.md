@@ -30,8 +30,10 @@ pip install ultralytics gradio opencv-python numpy
 
 ```
 D:/peoplenet/
-├── app.py                  # Main detection + Gradio app script
-├── README.md                # This README file
+├── app/
+│   ├── main.py # Main detection + Gradio app script
+│   ├── test.py
+│   ├── gradio_app.py         
 ├── data/
 │   └── videos/
 │       ├── cam_139.mp4
@@ -39,10 +41,12 @@ D:/peoplenet/
 │       ├── cam_142.mp4
 │       └── cam_52.mp4
 └── output/
-    ├── cam_139/
-    ├── cam_140/
-    ├── cam_142/
-    └── cam_52/
+│   ├── cam_139/
+│   ├── cam_140/
+│   ├── cam_142/
+│   └── cam_52/
+├── README.md
+└── requirements.txt
 ```
 
  How to Run
